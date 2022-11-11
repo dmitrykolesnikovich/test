@@ -1,6 +1,21 @@
+buildscript {
+    repositories {
+        mavenLocal()
+    }
+    dependencies {
+        classpath "org.featurea:gradle:0.0.4"
+    }
+}
+
+apply plugin: "featurea"
+
 artifact "test"
 
 source {
     include "io.featurea:window:$featurea_version"
     include "io.featurea:graphics:$featurea_version"
+}
+
+examples {
+    mainCall("level1")
 }
