@@ -1,0 +1,6 @@
+artifact "test"
+
+source {
+    include "io.featurea:window:$featurea_version"
+    include "io.featurea:graphics:$featurea_version"
+}
