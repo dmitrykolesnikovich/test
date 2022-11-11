@@ -7,13 +7,13 @@ buildscript {
     }
 }
 
-apply plugin: "featurea"
+apply plugin: "org.featurea.gradle"
 
 artifact "test"
 
 source {
-    include "io.featurea:window:$featurea_version"
-    include "io.featurea:graphics:$featurea_version"
+    include "org.featurea:window:$featurea_version"
+    include "org.featurea:graphics:$featurea_version"
 }
 
 examples {

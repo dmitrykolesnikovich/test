@@ -1,1 +1,5 @@
 artifact "test-js"
+
+manifest {
+    title="featurea is acually runnable!"
+}
