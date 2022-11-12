@@ -1,0 +1,5 @@
+<rml package="test">
+    <Level id="main">
+        <Body position="30, 30"/>
+    </Level>
+</rml>

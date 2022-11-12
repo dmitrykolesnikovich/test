@@ -2,6 +2,7 @@ package test
 
 import featurea.math.*
 import featurea.opengl.*
+import featurea.graphics.*
 import test.Resources.glowShader
 
 class GlowGraphics : ShaderGraphics() {

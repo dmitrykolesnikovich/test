@@ -1,5 +1,5 @@
 artifact "test-android"
 
-manifest("AndroidManifest.xml") {
-    packageId=featurea.test
+manifest {
+    packageId="featurea.test"
 }

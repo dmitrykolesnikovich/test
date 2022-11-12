@@ -1,5 +1,5 @@
 artifact "test-ios"
 
-manifest("xcode/Info.plist") {
+manifest {
     appId=featurea.test
 }
